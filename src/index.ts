@@ -12,7 +12,7 @@ import { execSync } from "child_process";
 import YAML from "yaml";
 
 // Configuration
-const PLAYBOOK_PATH = process.env.HANDBOOK_PATH || process.cwd();
+const PLAYBOOK_PATH = process.env.PLAYBOOK_PATH || process.cwd();
 
 // Helper: Sanitize path
 function sanitizePath(inputPath: string): string {
